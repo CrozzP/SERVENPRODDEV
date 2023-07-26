@@ -1,0 +1,93 @@
+.pp {
+  
+  padding: 0;
+  margin: 0;
+ 
+  border: 2px solid #ddd; 
+  margin-bottom: -30px;
+  
+  font-size: 14px;
+}
+
+.pr {
+  background-color: #ddd;
+  color: red;
+   padding: 0.5px;
+  margin-top: 30px;
+  margin-left: 3px;
+  
+  width: 350px;
+  height: 240px;
+  display: inline-block;
+  
+}
+
+.row > div{
+  background: #f2f2f2;
+  padding: 30px;
+  border: 1px solid grey;
+}
+.ppp{
+  display: inline-block;
+}
+
+
+
+
+.box {
+   // overflow: hidden;
+   position:relative;
+}
+
+.content {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.left .content {
+    border-right: 5px solid #4BB495  ;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.page-break {
+    page-break-after: always;
+}
+
+
+html, body, .main, .tabs, .tabbed-content { float: none; }
+
+.break-after {
+    display: block;
+    page-break-after: always;
+    position: relative;
+}
+
+.break-before {
+    display: block;
+    page-break-before: always;
+    position: relative;
+}
+
+.divcard{
+  height: 280px;
+  border: 1px solid black;
+  margin-bottom: 1.8em;
+  margin-top: 1.8em;
+}
+.datos{
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+  //font-weight: bold;
+}

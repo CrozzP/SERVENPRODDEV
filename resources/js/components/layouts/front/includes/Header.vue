@@ -1,0 +1,50 @@
+<template>
+	<div class="main-header">
+	<!-- Logo Header -->
+	<div class="logo-header" data-background-color="blue2" >
+		
+		<a href="#" class="logo">
+			
+			<img class="logoEdit" src="/assets/img/logo2.png">
+		</a>
+		<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+			
+		</button>
+
+		<button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
+		<div class="nav-toggle">
+			
+		</div>
+	</div>
+	<!-- End Logo Header -->
+
+	<!-- Navbar Header -->
+	<nav class="navbar navbar-header navbar-expand-lg bg-primary-gradient" >
+		
+		<div class="container-fluid ">
+			
+
+			<slot name="user"></slot>
+
+
+				
+			
+
+
+
+			
+		</div>
+	</nav>
+	<!-- End Navbar -->
+</div>
+</template>
+<script>
+	export default {
+        
+        mounted() {
+            console.log('pruebita',user)
+        }
+    }
+
+	
+</script>
