@@ -38,7 +38,7 @@
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td align="left" class="esd-block-image es-m-txt-c" style="font-size: 0px;">
-                                                                                        <img src="{{ $message->embed(public_path() . '../assets/img/electropuno.png') }}" alt="Logo" style="display: block;" title="Logo" width="260">
+                                                                                        <img src="{{ $message->embed('../assets/img/electropuno.png') }}" alt="Logo" style="display: block;" title="Logo" width="260">
                                                                                         
                                                                                     </td>
                                                                                 </tr>
@@ -81,7 +81,7 @@
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td align="center" class="esd-block-image" style="font-size: 0px;">
-                                                                                        <a target="_blank"><img class="adapt-img" src="{{ $message->embed(public_path() . '../assets/img/linea.png') }}" alt style="display: block;" width="560"></a>
+                                                                                        <a target="_blank"><img class="adapt-img" src="{{ $message->embed('../assets/img/linea.png') }}" alt style="display: block;" width="560"></a>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -152,7 +152,7 @@
                                                                             <tbody>
                                                                                 <tr>
                                                                                     <td align="center" class="esd-block-image" style="font-size: 0px;">
-                                                                                        <a target="_blank" href="#"><img class="adapt-img" src="{{ $message->embed(public_path() . '../assets/img/alto.png') }}" alt style="display: block;" width="208"></a>
+                                                                                        <a target="_blank" href="#"><img class="adapt-img" src="{{ $message->embed('../assets/img/alto.png') }}" alt style="display: block;" width="208"></a>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
